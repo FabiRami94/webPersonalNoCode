@@ -1,0 +1,10 @@
+
+.divNavBar{
+    display: flex;
+    flex-direction: row;
+}
+
+.divNavBar img{
+    height: 100px;
+    width: 100px;
+}

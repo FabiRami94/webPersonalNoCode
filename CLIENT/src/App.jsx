@@ -7,10 +7,10 @@ function App() {
 
   return (
     <>
-     <h1>Hola</h1>
-    <Routes>
-      <Route path='/' element={<LandingPage></LandingPage>}></Route>
-    </Routes>
+      <Routes>
+        <Route path='/' element={<LandingPage></LandingPage>}></Route>
+        <Route path='/Photoshop'></Route>
+      </Routes>
     </>
   )
 }

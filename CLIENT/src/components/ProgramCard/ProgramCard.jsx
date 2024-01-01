@@ -1,8 +1,11 @@
 
+import style from "./ProgramCard.module.css"
+
 const ProgramCard = () => {
     return(
         <>
-            <h2>container*4</h2>
+            <div className={style.container}>              
+            </div>
         </>
     )
 };

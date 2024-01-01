@@ -7,7 +7,10 @@ const LandingPage = () => {
     return (
         <>
             <div className={style.divGeneral}>
-                <ToggleButton></ToggleButton>
+                <div className={style.divNavBar}>
+                    <img src="https://i.ibb.co/KDtncV2/Logo-propio.png"/>
+                    <ToggleButton></ToggleButton>
+                </div>
                 <ProgramCards></ProgramCards>
                 <h1>Soy El Landing Page</h1>
             </div>
