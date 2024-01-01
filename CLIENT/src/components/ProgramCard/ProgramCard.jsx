@@ -1,11 +1,14 @@
 
+import { NavLink } from "react-router-dom";
 import style from "./ProgramCard.module.css"
 
 const ProgramCard = () => {
     return(
         <>
-            <div className={style.container}>              
-            </div>
+            <NavLink to={'/photoshop'}>
+                <div className={style.container}>              
+                </div>
+            </NavLink>
         </>
     )
 };

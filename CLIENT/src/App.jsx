@@ -2,6 +2,7 @@
 import './App.css'
 import {Route, Routes} from 'react-router-dom';
 import LandingPage from './views/LandingPage/LandingPage.jsx';
+import PhotoshopPage from './views/PhotoshopPage/PhotoshopPage.jsx';
 
 function App() {
 
@@ -9,7 +10,7 @@ function App() {
     <>
       <Routes>
         <Route path='/' element={<LandingPage></LandingPage>}></Route>
-        <Route path='/Photoshop'></Route>
+        <Route path='/photoshop' element={<PhotoshopPage></PhotoshopPage>}></Route>
       </Routes>
     </>
   )

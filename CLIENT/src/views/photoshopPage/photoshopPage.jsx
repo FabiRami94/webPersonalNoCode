@@ -1,10 +1,18 @@
 
-import { Navigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const PhotoshopPage = () => {
+
+    const navigate = useNavigate();
+
+    const handleReturn = () => {
+        navigate(-1);
+    };
+
     return(
         <>
-            <button></button>
+            <button onClick={handleReturn}>BACK</button>
+            <h1>Holaaaa</h1>
         </>
     )
 };
