@@ -12,7 +12,7 @@ const PhotoshopPage = () => {
     return(
         <>
             <button onClick={handleReturn}>BACK</button>
-            <h1>Holaaaa</h1>
+            <h1>Holaaaa Soy Photoshop</h1>
         </>
     )
 };
