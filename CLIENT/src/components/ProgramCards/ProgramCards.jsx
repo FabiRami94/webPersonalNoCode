@@ -1,5 +1,6 @@
 
 import ProgramCard from "../ProgramCard/ProgramCard.jsx";
+import style from "./ProgramCards.module.css";
 
 const ProgramCards = () => {
 
@@ -21,15 +22,15 @@ const ProgramCards = () => {
             link: '/illustrator'
         }
     ] //Enviar a Assets
-
+                                //https://i.ibb.co/vZx9Wjq/Notas.png
     return(
-        <> 
+        <div className={style.cards}> 
             {
                 noCodeList.map((noCode, index) => (
                     <ProgramCard key={index} imageUrl={noCode.url} link={noCode.link}></ProgramCard> 
                 ))
             }
-        </>
+        </div>
     )
 };
 

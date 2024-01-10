@@ -3,11 +3,17 @@ import { NavLink } from "react-router-dom";
 import style from "./ProgramCard.module.css"
 
 const ProgramCard = ({imageUrl, link}) => {
+
+    const imageName = imageUrl.split('/').pop();
+    const containerClass = `${style.containerS} ${imageName.includes('Photoshop') ? `${style.sombraAzul}` : null}`;
+
+
     return(
         <>
             <NavLink to={`${link}`}>
-                <h1>{console.log(imageUrl)}</h1>
-                <div className={style.container} style={{backgroundImage: `url(${imageUrl})`}}>              
+                <div className={style.containerP}>
+                    <div className={containerClass} style={{backgroundImage: `url(${imageUrl})`}}>              
+                    </div>
                 </div>
             </NavLink>
         </>

@@ -12,7 +12,6 @@ const LandingPage = () => {
                     <ToggleButton></ToggleButton>
                 </div>
                 <ProgramCards></ProgramCards>
-                <h1>Soy El Landing Page</h1>
             </div>
         </>
     )
