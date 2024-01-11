@@ -5,29 +5,49 @@
     margin-bottom: 20px;
 }
 
+    @media (max-width: 768px) {
+        .containerP{
+            width: 340px;
+            height: 180px;
+        }
+    }  
+
 .containerS{
     width: 500px;
-    height: 300px;
+    height: 265px;
     /* background-image: url('https://i.ibb.co/m0XpGkC/Imagen-Photoshop.png'); */
     background-position: center;
     background-size: contain;
     border-radius: 1.5rem;   
 }
 
-.containerS:hover{
-    box-shadow:  0 0 1rem 1rem rgba(0, 0, 0, 0.4);
-}
+    @media (max-width: 768px) {
+        .containerS{
+            width: 100%;
+            height: 100%;
+        }
+    }   
 
-.sombraAzul{
-    width: 500px;
-    height: 300px;
-    /* background-image: url('https://i.ibb.co/m0XpGkC/Imagen-Photoshop.png'); */
-    background-position: center;
-    background-size: contain;
-    border-radius: 1.5rem; 
+.containerS:hover{
+    box-shadow: 0 0 0.5rem 0.5rem rgba(0, 141, 199, 0.3),
+                0 0 1.5rem 1.5rem rgba(0, 141, 199, 0.3);
+    padding-top: 0.5rem;
 }
 
 .sombraAzul:hover{
-    box-shadow:  0 0 1rem 1rem rgba(0, 101, 253, 0.6);
+    box-shadow: 0 0 0.5rem 0.5rem rgba(0, 170, 255, 0.3),
+                0 0 1.5rem 1.5rem rgba(0, 170, 255, 0.3);
 }
 
+.sombraRoja:hover{
+    box-shadow: 0 0 0.5rem 0.5rem rgba(255, 156, 0, 0.3),
+                0 0 1.5rem 1.5rem rgba(255, 156, 0, 0.3);
+}
+
+.sombraVarios:hover{
+    box-shadow: 0 0  0.5rem 0.5rem rgba(255, 77, 15, 0.3), 
+                0 0  1rem 1rem rgba(183, 89, 255, 0.3), 
+                0 0  1.5rem 1.5rem rgba(0, 210, 126, 0.3),
+                0 0  2rem 2rem rgba(0, 189, 255, 0.3), 
+                0 0  2.5rem 2.5rem rgba(255, 115, 97, 0.3);
+}

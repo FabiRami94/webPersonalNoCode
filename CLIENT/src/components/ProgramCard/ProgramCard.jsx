@@ -5,7 +5,16 @@ import style from "./ProgramCard.module.css"
 const ProgramCard = ({imageUrl, link}) => {
 
     const imageName = imageUrl.split('/').pop();
-    const containerClass = `${style.containerS} ${imageName.includes('Photoshop') ? `${style.sombraAzul}` : null}`;
+
+    let colorClass = '';
+    if (imageName.includes('Photoshop')) {
+        colorClass = style.sombraAzul;
+    } else if (imageName.includes('Illustrator')) {
+        colorClass = style.sombraRoja;
+    } else if (imageName.includes('Figma')) {
+        colorClass = style.sombraVarios;
+    }
+    const containerClass = `${style.containerS} ${colorClass}`;
 
 
     return(

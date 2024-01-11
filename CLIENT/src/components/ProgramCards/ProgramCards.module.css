@@ -8,3 +8,9 @@
     align-items: center;
     align-content: flex-start; /* Alinea las líneas al principio verticalmente */
 }
+
+    @media (max-width: 768px) {
+        .cards{
+            padding: 10px;
+        }
+    } 

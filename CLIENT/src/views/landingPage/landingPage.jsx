@@ -1,4 +1,5 @@
 
+import Footer from "../../components/Footer/Footer.jsx";
 import ProgramCards from "../../components/ProgramCards/ProgramCards.jsx";
 import ToggleButton from "../../components/ToggleButton/ToggleButton.jsx";
 import style from './LandingPage.module.css';
@@ -12,6 +13,7 @@ const LandingPage = () => {
                     <ToggleButton></ToggleButton>
                 </div>
                 <ProgramCards></ProgramCards>
+                <Footer></Footer>
             </div>
         </>
     )
