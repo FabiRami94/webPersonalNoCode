@@ -9,7 +9,9 @@ const LandingPage = () => {
         <>
             <div className={style.divGeneral}>
                 <div className={style.divNavBar}>
-                    <img src="https://i.ibb.co/KDtncV2/Logo-propio.png"/>
+                    {/* Logo Negro <img src="https://i.ibb.co/KDtncV2/Logo-propio.png"/> */}
+                    <img src="https://i.ibb.co/ZGF3qS3/Logo-propio-Blanco.png"/>
+                    <h2>PORTAFOLIO NO CODE</h2>           
                     <ToggleButton></ToggleButton>
                 </div>
                 <ProgramCards></ProgramCards>

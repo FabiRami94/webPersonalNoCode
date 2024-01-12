@@ -1,0 +1,26 @@
+
+.logo{
+    width: 60px;
+    height:60px;
+    margin: 5px;
+}
+
+.centerContent button:first-child {
+    float: left;
+    align-self: flex-start; 
+    margin: 10px 200px 0px 0px;
+}
+
+.centerContent button:last-child {
+    float: right;
+    align-self: flex-start; 
+    margin: 10px 0px 0px 200px;
+    visibility: hidden; 
+}
+  
+.centerContent {
+    float: none;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+}
