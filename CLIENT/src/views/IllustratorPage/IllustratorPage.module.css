@@ -58,3 +58,45 @@
     padding: 1rem;
     color: white;
 }
+
+.notesImage{ 
+    width: 40px;  
+}
+
+    @media(max-width: 768px){
+        .notesImage{
+            width: 30px
+        }
+    }
+
+span{
+    display: block;
+    width: 400px;
+}
+
+    @media(max-width: 768px){
+        span{
+            width: 240px;
+            margin-top: 1rem;
+        }
+    }
+
+div h1{
+    display: block;
+    color: rgb(0, 174, 246);
+    font-size: 2.2rem;
+    margin: 0px;
+}
+
+.divNotes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+    @media(max-width: 768px){
+        .divNotes{
+            flex-direction: column;
+        }
+    }

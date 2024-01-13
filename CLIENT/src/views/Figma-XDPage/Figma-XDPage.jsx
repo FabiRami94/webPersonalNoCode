@@ -20,12 +20,7 @@ const FigmaXDPage = () => {
                 <img className={styles.logo} src="https://i.ibb.co/QKGG7v0/Logo-Figma.png" alt="Logo Illustrator" />
                 <button onClick={handleReturn}>BACK</button>
             </div>  
-            <h2>WORK</h2>  
-            
-            <div >
-                <h2>PROGRAMAS NO CODE</h2>  
-                      
-            </div>
+            <h2 style={{color: 'white'}}>WORK IN PROCESS...</h2>  
         </>
     )
 };

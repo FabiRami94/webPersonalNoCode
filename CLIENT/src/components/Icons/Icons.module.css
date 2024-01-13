@@ -16,6 +16,5 @@
     } 
 
 .icons img{
-    fill: white;
-    filter: hue-rotate(180deg);
+        width: 40px;
 }

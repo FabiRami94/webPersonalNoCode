@@ -22,16 +22,23 @@ const IllustratorPage = () => {
                 <button onClick={handleReturn}>BACK</button>
             </div> 
             <div className={styles.containerMaterial}>
-                <h2>ICONS</h2> 
+                <h2>ICONOS</h2> 
                 <Icons></Icons>
             </div>
-            <div className={styles.containerMaterial}>
-                <h2>WORK</h2>  
-                <ImagesIllustrator imagePosition = {[0,2]}></ImagesIllustrator> 
+            <h1>TRABAJO PROPIO</h1>
+            <div className={styles.containerMaterial}>  
+                <h2 style={{color: 'white'}}>WORK IN PROCESS...</h2> 
+                {/* <ImagesIllustrator imagePosition = {[0,2]}></ImagesIllustrator>  */}
             </div> 
             <div className={styles.containerMaterial}>
                 <h2>PROGRAMAS NO CODE</h2>  
-                <ImagesIllustrator imagePosition = {[0,1,2,3]}></ImagesIllustrator>        
+                <ImagesIllustrator imagePosition = {[0,1,2,3]}></ImagesIllustrator>
+                <div className={styles.divNotes}>  
+                    <img className={styles.notesImage} src="https://i.ibb.co/p2T0FFC/Recurso-2.png" />
+                    <span>
+                        Se realizó los Isotipos de los programas para poder tenerlos vectorizarlos y no perder calidad.
+                    </span>
+                </div>        
             </div>
         </>
     )

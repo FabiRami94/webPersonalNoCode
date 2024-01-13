@@ -18,11 +18,20 @@ const PhotoshopPage = () => {
                 <img className={styles.logo} src="https://i.ibb.co/2s8560B/Logo-Photoshop.png" alt="Logo Illustrator" />
                 <button onClick={handleReturn}>BACK</button>
             </div>  
-            <h2>WORK</h2>  
-            
-            <div >
+            <h1>TRABAJO PROPIO</h1>
+            <div className={styles.containerMaterial}>  
+                <h2 style={{color: 'white'}}>WORK IN PROCESS...</h2> 
+                {/* <ImagesIllustrator imagePosition = {[0,2]}></ImagesIllustrator>  */}
+            </div> 
+            <div className={styles.containerMaterial}>
                 <h2>PROGRAMAS NO CODE</h2>  
-                      
+                {/* <ImagesIllustrator imagePosition = {[0,1,2,3]}></ImagesIllustrator> */}
+                <div style={{display: 'flex',flexDirection: 'row', justifyContent: 'center'}}>  
+                    <img className={styles.notesImage} src="https://i.ibb.co/p2T0FFC/Recurso-2.png" />
+                    <span>
+                        Se realizó los Isotipos de los programas para poder tenerlos vectorizarlos y no perder calidad.
+                    </span>
+                </div>        
             </div>
         </>
     )
