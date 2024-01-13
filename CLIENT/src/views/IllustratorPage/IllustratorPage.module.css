@@ -50,3 +50,11 @@
             display: none;
         }
     } 
+
+.containerMaterial{
+    background-color: rgb(255, 255, 255, 0.2);
+    border-radius: 2rem;
+    margin: 2rem;
+    padding: 1rem;
+    color: white;
+}

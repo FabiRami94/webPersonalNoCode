@@ -21,11 +21,15 @@ const IllustratorPage = () => {
                 <img className={styles.logo} src="https://i.ibb.co/n6TGF9n/Logo-Illustrator.png" alt="Logo Illustrator" />
                 <button onClick={handleReturn}>BACK</button>
             </div> 
-            <h2>ICONS</h2> 
-            <Icons></Icons> 
-            <h2>WORK</h2>  
-            <ImagesIllustrator imagePosition = {[0,2]}></ImagesIllustrator> 
-            <div >
+            <div className={styles.containerMaterial}>
+                <h2>ICONS</h2> 
+                <Icons></Icons>
+            </div>
+            <div className={styles.containerMaterial}>
+                <h2>WORK</h2>  
+                <ImagesIllustrator imagePosition = {[0,2]}></ImagesIllustrator> 
+            </div> 
+            <div className={styles.containerMaterial}>
                 <h2>PROGRAMAS NO CODE</h2>  
                 <ImagesIllustrator imagePosition = {[0,1,2,3]}></ImagesIllustrator>        
             </div>
