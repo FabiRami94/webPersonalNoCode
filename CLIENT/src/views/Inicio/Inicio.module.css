@@ -1,0 +1,25 @@
+
+.divNavBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.divNavBar img{
+    height: 60px;
+    width: 60px;
+}
+
+.divNavBar h1{
+    display: block;
+    color: rgb(0, 174, 246);
+    font-size: 2.2rem;
+    margin: 0px 0px 0px 10px;
+}
+
+    @media(max-width: 768px){
+        .divNavBar h1{
+            width: 300px;
+            font-size: 1.8rem;
+        }
+    }
