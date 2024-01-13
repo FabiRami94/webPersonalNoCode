@@ -1,0 +1,89 @@
+
+.logo{
+    width: 60px;
+    height:60px;
+    margin: 5px;
+}
+
+.centerContent button:first-child {
+    float: left;
+    align-self: flex-start; 
+    margin: 10px 360px 0px 0px;
+    background-color: rgb(0, 174, 246);
+    color: white;
+    font-weight: 600;
+    font-size: medium;
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 20px;
+    width: 100px;
+}
+
+
+    @media (max-width: 768px) {
+        .centerContent button:first-child{
+            margin: 10px 0px 0px 0px;
+        }
+    } 
+
+.centerContent button:first-child:hover{
+    background-color: white;
+    color: rgb(0, 174, 246)
+}
+
+.centerContent button:last-child {
+    float: right;
+    align-self: flex-start; 
+    margin: 10px 0px 0px 400px;
+    visibility: hidden; 
+}
+  
+.centerContent {
+    float: none;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+    @media (max-width: 768px) {
+        .centerContent button:last-child{
+            display: none;
+        }
+    } 
+
+.containerMaterial{
+    background-color: rgb(255, 255, 255, 0.2);
+    border-radius: 2rem;
+    margin: 2rem;
+    padding: 1rem;
+    color: white;
+}
+
+.notesImage{ 
+    height: 40px;  
+}
+
+span{
+    display: block;
+    width: 400px;
+}
+
+div h1{
+    display: block;
+    color: rgb(0, 174, 246);
+    font-size: 2.2rem;
+    margin: 0px;
+}
+
+.divNotes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+    @media(max-width: 768px){
+        .divNotes{
+            flex-direction: column;
+        }
+    }
