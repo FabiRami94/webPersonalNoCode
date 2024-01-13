@@ -7,7 +7,7 @@ const ImagesIllustrator = ({imagePosition}) => {
     return (
         <div className={style.images}>
             {imagePosition.map(image => (
-                <img key={imagePosition} src={imagesIllustratorData[image]} alt={`Imagen ${image}`}/>
+                <img key={image} src={imagesIllustratorData[image]} alt={`Imagen ${image}`}/>
             ))}
         </div>
     )

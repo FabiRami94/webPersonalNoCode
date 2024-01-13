@@ -1,5 +1,6 @@
 
 import './App.css'
+import React from 'react';
 import {Route, Routes} from 'react-router-dom';
 import LandingPage from './views/LandingPage/LandingPage.jsx';
 import PhotoshopPage from './views/PhotoshopPage/PhotoshopPage.jsx';
