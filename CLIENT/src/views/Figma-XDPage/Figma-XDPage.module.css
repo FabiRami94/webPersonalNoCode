@@ -50,3 +50,18 @@
             display: none;
         }
     } 
+
+.containerMaterial{
+    background-color: rgb(255, 255, 255, 0.2);
+    border-radius: 2rem;
+    margin: 2rem;
+    padding: 1rem;
+    color: white;
+}    
+    
+div h1{
+    display: block;
+    color: rgb(0, 174, 246);
+    font-size: 2.2rem;
+    margin: 0px;
+}    

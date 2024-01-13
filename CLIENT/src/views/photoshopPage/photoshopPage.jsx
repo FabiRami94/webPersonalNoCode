@@ -1,6 +1,7 @@
 
 import { useNavigate } from "react-router-dom";
 import styles from './PhotoshopPage.module.css';
+import ImagesPhotoshop from "../../components/Images/ImagesPhotoshop/ImagesPhotoshop";
 
 const PhotoshopPage = () => {
 
@@ -25,13 +26,14 @@ const PhotoshopPage = () => {
             </div> 
             <div className={styles.containerMaterial}>
                 <h2>PROGRAMAS NO CODE</h2>  
+                <ImagesPhotoshop imagePosition = {[0,1,2,3]}></ImagesPhotoshop>
                 {/* <ImagesIllustrator imagePosition = {[0,1,2,3]}></ImagesIllustrator> */}
-                <div style={{display: 'flex',flexDirection: 'row', justifyContent: 'center'}}>  
+                <div className={styles.divNotes}>  
                     <img className={styles.notesImage} src="https://i.ibb.co/p2T0FFC/Recurso-2.png" />
                     <span>
-                        Se realizó los Isotipos de los programas para poder tenerlos vectorizarlos y no perder calidad.
+                        Se busca mostrar una conexión llamativa entre el Isotipos con su interface respectivo.
                     </span>
-                </div>        
+                </div>      
             </div>
         </>
     )
