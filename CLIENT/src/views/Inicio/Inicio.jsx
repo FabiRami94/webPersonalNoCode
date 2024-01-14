@@ -9,10 +9,11 @@ const Inicio = () => {
     return (
         <>
             <div className={style.divGeneral}>
-                {/* <div className={style.divNavBar}>
+                <div className={style.divNavBar}>
                     <img src="https://i.ibb.co/ZGF3qS3/Logo-propio-Blanco.png"/>
-                    <h1>MI PORTAFOLIO NO CODE</h1>           
-                </div> */}
+                    <h1>MI PORTAFOLIO NO CODE</h1> 
+                    {/* <ToggleButton></ToggleButton> */}          
+                </div>
                 <ProgramCards></ProgramCards>
                 <Footer></Footer>
             </div>
