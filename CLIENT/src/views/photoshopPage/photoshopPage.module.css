@@ -63,10 +63,17 @@
     height: 40px;  
 }
 
-span{
+.divNotes span{
     display: block;
     width: 400px;
 }
+
+    @media(max-width: 768px){
+        .divNotes span{
+            width: 100px;
+            margin-top: 1rem;
+        }
+    }
 
 div h1{
     display: block;

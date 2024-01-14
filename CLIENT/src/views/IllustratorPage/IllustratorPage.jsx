@@ -15,12 +15,12 @@ const IllustratorPage = () => {
     return(
         
         <>  
-            {/* <div className={styles.centerContent}>
+            <div className={styles.centerContent}>
                 <button onClick={handleReturn}>BACK</button>
                 <img className={styles.logo} src="https://i.ibb.co/ZGF3qS3/Logo-propio-Blanco.png" alt="Logo Blanco" />
                 <img className={styles.logo} src="https://i.ibb.co/n6TGF9n/Logo-Illustrator.png" alt="Logo Illustrator" />
                 <button onClick={handleReturn}>BACK</button>
-            </div>  */}
+            </div> 
             <div className={styles.containerMaterial}>
                 <h2>ICONOS</h2> 
                 <Icons></Icons>
@@ -28,7 +28,7 @@ const IllustratorPage = () => {
             <h1>TRABAJO PROPIO</h1>
             <div className={styles.containerMaterial}>  
                 <h2 style={{color: 'white'}}>WORK IN PROCESS...</h2> 
-                {/* <ImagesIllustrator imagePosition = {[0,2]}></ImagesIllustrator>  */}
+               
             </div> 
             <div className={styles.containerMaterial}>
                 <h2>PROGRAMAS NO CODE</h2>  
