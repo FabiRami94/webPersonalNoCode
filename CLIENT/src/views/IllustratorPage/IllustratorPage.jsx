@@ -26,10 +26,9 @@ const IllustratorPage = () => {
                 <Icons></Icons>
             </div>
             <h1>TRABAJO PROPIO</h1>
-            <div className={styles.containerMaterial}>  
-                <h2 style={{color: 'white'}}>WORK IN PROCESS...</h2> 
-               
-            </div> 
+            {/* <div className={styles.containerMaterial}>  
+                <h2 style={{color: 'white'}}>WORK IN PROCESS...</h2>    
+            </div>  */}
             <div className={styles.containerMaterial}>
                 <h2>PROGRAMAS NO CODE</h2>  
                 <ImagesIllustrator imagePosition = {[0,1,2,3]}></ImagesIllustrator>

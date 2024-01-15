@@ -20,9 +20,9 @@ const PagePhotoshop = () => {
                 <button onClick={handleReturn}>BACK</button>
             </div>  
             <h1>TRABAJO PROPIO</h1>
-            <div className={styles.containerMaterial}>  
+            {/* <div className={styles.containerMaterial}>  
                 <h2 style={{color: 'white'}}>WORK IN PROCESS...</h2> 
-            </div> 
+            </div>  */}
             <div className={styles.containerMaterial}>
                 <h2>PROGRAMAS NO CODE</h2>  
                 <ImagesPhotoshop imagePosition = {[0,1,2,3]}></ImagesPhotoshop>
