@@ -100,3 +100,13 @@ div h1{
             flex-direction: column;
         }
     }
+
+div img{
+    width: 500px;
+}
+
+    @media(max-width: 768px){
+        div img{
+            width: 300px;
+        }
+    }

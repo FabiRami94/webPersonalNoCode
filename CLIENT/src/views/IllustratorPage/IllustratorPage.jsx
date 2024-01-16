@@ -31,11 +31,13 @@ const IllustratorPage = () => {
             </div>  */}
             <div className={styles.containerMaterial}>
                 <h2>ROMPECABEZAS DE TECNOLOGÍAS</h2>  
-                <ImagesIllustrator imagePosition = {[4]}></ImagesIllustrator>
+                <div>
+                    <img src="https://i.ibb.co/TLZ5C3L/Rompecabezas.png"/>
+                </div>
                 <div className={styles.divNotes}>  
                     <img className={styles.notesImage} src="https://i.ibb.co/p2T0FFC/Recurso-2.png" />
                     <span>
-                        Se buscaba darle expresión a la unión de diferentes tecnologías en un rompecabezas.
+                        Se buscaba darle expresión a la unión de diferentes nuevas tecnologías en un rompecabezas.
                     </span>
                 </div>        
             </div>
