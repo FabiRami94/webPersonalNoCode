@@ -21,9 +21,18 @@ const FigmaXDPage = () => {
                 <button onClick={handleReturn}>BACK</button>
             </div>  
             <h1>TRABAJO PROPIO</h1>
-            <div className={styles.containerMaterial}>  
-                <h2 style={{color: 'white'}}>WORK IN PROCESS...</h2> 
-            </div>  
+            <div className={styles.containerMaterial}>
+                <h2>ROMPECABEZAS DE TECNOLOGÍAS</h2>  
+                <div>
+                    <img  className={styles.imagen} src="https://i.ibb.co/s1j4hwQ/PROYECTO1-FIGMA.png"/>
+                </div>
+                <div className={styles.divNotes}>  
+                    <img className={styles.notesImage} src="https://i.ibb.co/p2T0FFC/Recurso-2.png" />
+                    <span>
+                        Figma es limitante en versión gratuita, por ello no se comparte link de prototipos.
+                    </span>
+                </div>        
+            </div> 
         </>
     )
 };
