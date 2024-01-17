@@ -90,7 +90,6 @@
 
     @media(max-width: 768px){
         .notesImage{
-            margin-top: 10px;
             width: 30px
         }
     }
@@ -112,6 +111,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+   
 }
     
     @media(max-width: 768px){
@@ -121,12 +121,13 @@
     }
     
 .imagen{
-    width: 500px;
+    margin: 10px 0px;
+    width: 60%;
     border-radius: 10px;
 }
     
     @media(max-width: 768px){
         .imagen{
-            width: 250px;
+            width: 80%;
         }
     }
