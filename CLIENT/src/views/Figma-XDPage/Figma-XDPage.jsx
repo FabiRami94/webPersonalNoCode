@@ -13,16 +13,16 @@ const FigmaXDPage = () => {
     };
 
     return(
-        <>
+        <div>
             <div className={styles.centerContent}>
                 <button onClick={handleReturn}>BACK</button>
                 <img className={styles.logo} src="https://i.ibb.co/ZGF3qS3/Logo-propio-Blanco.png" alt="Logo Blanco" />
                 <img className={styles.logo} src="https://i.ibb.co/QKGG7v0/Logo-Figma.png" alt="Logo Illustrator" />
                 <button onClick={handleReturn}>BACK</button>
             </div>  
-            <h1>TRABAJO PROPIO</h1>
+            <h1 className={styles.title}>TRABAJO PROPIO</h1>
             <div className={styles.containerMaterial}>
-                <h2>ROMPECABEZAS DE TECNOLOGÍAS</h2>  
+                <h2 className={styles.subtitle}>ROMPECABEZAS DE TECNOLOGÍAS</h2>  
                 <div>
                     <img  className={styles.imagen} src="https://i.ibb.co/s1j4hwQ/PROYECTO1-FIGMA.png"/>
                 </div>
@@ -33,7 +33,7 @@ const FigmaXDPage = () => {
                     </span>
                 </div>        
             </div> 
-        </>
+        </div>
     )
 };
 

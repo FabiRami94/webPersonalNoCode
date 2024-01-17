@@ -58,13 +58,31 @@
     padding: 1rem;
     color: white;
 }    
-    
-div h1{
+  
+.title{
     display: block;
     color: rgb(0, 174, 246);
     font-size: 2.2rem;
     margin: 0px;
-}   
+}  
+
+    @media (max-width: 768px) {
+        .title{
+            font-size: 1.8rem;
+        }
+    } 
+
+.subtitle{
+    display: block;
+    font-size: 1.8rem;
+    margin: 0px;
+}  
+    
+    @media (max-width: 768px) {
+        .subtitle{
+            font-size: 1.4rem;
+        }
+    } 
 
 .notesImage{ 
     width: 40px;  
@@ -72,6 +90,7 @@ div h1{
 
     @media(max-width: 768px){
         .notesImage{
+            margin-top: 10px;
             width: 30px
         }
     }
@@ -108,6 +127,6 @@ div h1{
     
     @media(max-width: 768px){
         .imagen{
-            width: 300px;
+            width: 250px;
         }
     }
