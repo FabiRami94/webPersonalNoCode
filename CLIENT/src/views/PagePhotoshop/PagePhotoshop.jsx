@@ -12,13 +12,12 @@ const PagePhotoshop = () => {
     };
 
     return(
-        <>
-            <div className={styles.centerContent}>
-                <button onClick={handleReturn}>BACK</button>
+        <div>        
+            <div>
+                <button className={styles.principalButton} onClick={handleReturn}>BACK</button>
                 <img className={styles.logo} src="https://i.ibb.co/ZGF3qS3/Logo-propio-Blanco.png" alt="Logo Blanco" />
-                <img className={styles.logo} src="https://i.ibb.co/2s8560B/Logo-Photoshop.png" alt="Logo Illustrator" />
-                <button onClick={handleReturn}>BACK</button>
-            </div>  
+                <img className={styles.logo} src="https://i.ibb.co/2s8560B/Logo-Photoshop.png" alt="Logo Photoshop" />
+            </div> 
             <h1>TRABAJO PROPIO</h1>
             {/* <div className={styles.containerMaterial}>  
                 <h2 style={{color: 'white'}}>WORK IN PROCESS...</h2> 
@@ -33,7 +32,7 @@ const PagePhotoshop = () => {
                     </span>
                 </div>      
             </div>
-        </>
+        </div>
     )
 };
 

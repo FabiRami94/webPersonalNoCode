@@ -7,17 +7,15 @@ import style from './Inicio.module.css';
 
 const Inicio = () => {
     return (
-        <>
-            <div className={style.divGeneral}>
-                <div className={style.divNavBar}>
-                    <img src="https://i.ibb.co/ZGF3qS3/Logo-propio-Blanco.png"/>
-                    <h1>MI PORTAFOLIO NO CODE</h1> 
-                    {/* <ToggleButton></ToggleButton> */}          
-                </div>
-                <ProgramCards></ProgramCards>
-                <Footer></Footer>
+        <div>     
+            <div className={style.divNavBar}>
+                <img src="https://i.ibb.co/ZGF3qS3/Logo-propio-Blanco.png"/>
+                <h1 className={style.title}>MI PORTAFOLIO NO CODE</h1> 
+                {/* <ToggleButton></ToggleButton> */}          
             </div>
-        </>
+            <ProgramCards></ProgramCards>
+            <Footer></Footer>       
+        </div>
     )
 };
 

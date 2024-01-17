@@ -14,12 +14,11 @@ const FigmaXDPage = () => {
 
     return(
         <div>
-            <div className={styles.centerContent}>
-                <button onClick={handleReturn}>BACK</button>
+            <div>
+                <button className={styles.principalButton} onClick={handleReturn}>BACK</button>
                 <img className={styles.logo} src="https://i.ibb.co/ZGF3qS3/Logo-propio-Blanco.png" alt="Logo Blanco" />
-                <img className={styles.logo} src="https://i.ibb.co/QKGG7v0/Logo-Figma.png" alt="Logo Illustrator" />
-                <button onClick={handleReturn}>BACK</button>
-            </div>  
+                <img className={styles.logo} src="https://i.ibb.co/QKGG7v0/Logo-Figma.png" alt="Logo Figma" />
+            </div>
             <h1 className={styles.title}>TRABAJO PROPIO</h1>
             <div className={styles.containerMaterial}>
                 <h2 className={styles.subtitle}>ROMPECABEZAS DE TECNOLOGÍAS</h2>  

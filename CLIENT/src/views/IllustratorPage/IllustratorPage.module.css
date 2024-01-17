@@ -98,13 +98,13 @@
         }
     }
 
-div img{
+.imagen{
     width: 60%;
     margin: 10px;
 }
 
     @media(max-width: 768px){
-        div img{
+        .imagen{
             width: 80%;
         }
     }

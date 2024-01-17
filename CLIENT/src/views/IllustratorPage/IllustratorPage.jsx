@@ -28,7 +28,7 @@ const IllustratorPage = () => {
             <div className={styles.containerMaterial}>
                 <h2 className={styles.subtitle}>ROMPECABEZAS DE TECNOLOGÍAS</h2>  
                 <div>
-                    <img src="https://i.ibb.co/TLZ5C3L/Rompecabezas.png"/>
+                    <img className={styles.imagen} src="https://i.ibb.co/TLZ5C3L/Rompecabezas.png"/>
                 </div>
                 <div className={styles.divNotes}>  
                     <img className={styles.notesImage} src="https://i.ibb.co/p2T0FFC/Recurso-2.png" />
